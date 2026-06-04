@@ -47,6 +47,21 @@ dispositivos** y generación automática de **trace, video y reporte HTML** como
 - **Node.js** >= 18 (probado con Node 25)
 - **npm**
 
+## Dependencias necesarias
+
+Se instalan automáticamente con `npm install`:
+
+| Dependencia | Tipo | Para qué se usa |
+|---|---|---|
+| `@playwright/test` | dev | Framework de pruebas E2E/automatización (runner, asserts, navegadores) |
+| `dotenv` | prod | Carga la `BASE_URL` desde el archivo `.env` |
+| `typescript` | dev | Tipado estático y `npm run typecheck` |
+| `@types/node` | dev | Tipos de Node.js para TypeScript |
+
+Además, Playwright necesita el navegador **Chromium**, que se descarga
+automáticamente mediante el script `postinstall` (o manualmente con
+`npm run install:browsers`).
+
 ## Instalación
 
 ```bash
