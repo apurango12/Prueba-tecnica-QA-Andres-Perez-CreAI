@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.local
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+*.log
+.DS_Store
+
+# Evidencia: se versionan solo los screenshots (livianos); el resto se regenera
+# con `npm run test:evidence`.
+evidence/videos/
+evidence/traces/
+evidence/html-report/
