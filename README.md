@@ -1,6 +1,6 @@
 # Smoke Test – Homepage de creai.mx
 
-[![Smoke Test creai.mx](https://github.com/apurango12/Prueba-tecnica-QA-Andres-Peres-CreAI/actions/workflows/ci.yml/badge.svg)](https://github.com/apurango12/Prueba-tecnica-QA-Andres-Peres-CreAI/actions/workflows/ci.yml)
+[![Smoke Test creai.mx](https://github.com/apurango12/Prueba-tecnica-QA-Andres-Perez-CreAI/actions/workflows/ci.yml/badge.svg)](https://github.com/apurango12/Prueba-tecnica-QA-Andres-Perez-CreAI/actions/workflows/ci.yml)
 
 Automatización de un **Smoke Test** para validar el correcto funcionamiento de la
 homepage pública de [https://creai.mx](https://creai.mx).
@@ -8,8 +8,8 @@ homepage pública de [https://creai.mx](https://creai.mx).
 ## Quick start (clonar y correr)
 
 ```bash
-git clone https://github.com/apurango12/Prueba-tecnica-QA-Andres-Peres-CreAI.git
-cd Prueba-tecnica-QA-Andres-Peres-CreAI
+git clone https://github.com/apurango12/Prueba-tecnica-QA-Andres-Perez-CreAI.git
+cd Prueba-tecnica-QA-Andres-Perez-CreAI
 npm install          # instala dependencias y, vía postinstall, el navegador Chromium
 npm test             # ejecuta las 7 pruebas (escritorio + móvil iPhone X)
 ```
